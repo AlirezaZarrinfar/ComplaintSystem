@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplaintSystem", "ComplaintSystem\ComplaintSystem.csproj", "{1859E0C7-742C-4DD1-BAA5-793912935D12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplaintSystem", "ComplaintSystem\ComplaintSystem.csproj", "{1859E0C7-742C-4DD1-BAA5-793912935D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplaintSystem.Logic", "ComplaintSystem.Logic\ComplaintSystem.Logic.csproj", "{FA1D11E7-8977-437E-9017-8237C10A59F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplaintSystem.Logic", "ComplaintSystem.Logic\ComplaintSystem.Logic.csproj", "{FA1D11E7-8977-437E-9017-8237C10A59F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplaintSystem.Model", "ComplaintSystem.Model\ComplaintSystem.Model.csproj", "{B4396470-A526-4984-828A-441AB1E0322B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplaintSystem.Model", "ComplaintSystem.Model\ComplaintSystem.Model.csproj", "{B4396470-A526-4984-828A-441AB1E0322B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplaintSystem.Utilities", "ComplaintSystem.Utilities\ComplaintSystem.Utilities.csproj", "{B36E4E59-E10E-465B-BAD8-A36E8120F54D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplaintSystem.Utilities", "ComplaintSystem.Utilities\ComplaintSystem.Utilities.csproj", "{B36E4E59-E10E-465B-BAD8-A36E8120F54D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
