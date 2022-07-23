@@ -1,3 +1,6 @@
+using AutoMapper;
+using ComplaintSystem.Logic.Services;
+using ComplaintSystem.Logic.Services.LoginUsers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +31,9 @@ namespace ComplaintSystem
         {
 
             services.AddControllers();
+            services.AddScoped<IAddUsersService, AddUsersService>();
+            services.AddScoped<ILoginUsersService, LoginUsersService>();
+            services.AddAutoMapper(typeof(Startup));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ComplaintSystem", Version = "v1" });
